@@ -1,0 +1,887 @@
+{
+  "metadata": {
+    "name": "Smart Kitchen AI Ingredient Database",
+    "version": "1.0",
+    "description": "Starter ingredient catalogue for recipe matching and image-recognition mapping.",
+    "important_note": "Ingredient presence in this database does not mean the current YOLO model can visually detect it.",
+    "total_ingredients": 448
+  },
+  "categories": {
+    "fruits": {
+      "apple": [
+        "apples"
+      ],
+      "banana": [
+        "bananas"
+      ],
+      "mango": [
+        "mangos"
+      ],
+      "orange": [
+        "oranges"
+      ],
+      "grapes": [
+        "grape"
+      ],
+      "strawberry": [
+        "strawberries"
+      ],
+      "blueberry": [
+        "blueberries"
+      ],
+      "raspberry": [
+        "raspberries"
+      ],
+      "blackberry": [
+        "blackberries"
+      ],
+      "cranberry": [
+        "cranberries"
+      ],
+      "watermelon": [
+        "water melon"
+      ],
+      "muskmelon": [
+        "cantaloupe",
+        "kharbuja"
+      ],
+      "papaya": [],
+      "pineapple": [],
+      "guava": [
+        "amrood"
+      ],
+      "pear": [],
+      "peach": [],
+      "plum": [],
+      "apricot": [],
+      "kiwi": [
+        "kiwifruit"
+      ],
+      "pomegranate": [
+        "anar"
+      ],
+      "lemon": [],
+      "lime": [],
+      "sweet lime": [
+        "mosambi"
+      ],
+      "coconut": [],
+      "jackfruit": [
+        "kathal"
+      ],
+      "lychee": [
+        "litchi"
+      ],
+      "dragon fruit": [
+        "pitaya"
+      ],
+      "fig": [
+        "anjeer"
+      ],
+      "dates": [
+        "khajoor"
+      ],
+      "raisins": [
+        "kishmish"
+      ],
+      "custard apple": [
+        "sitaphal",
+        "sugar apple"
+      ],
+      "sapodilla": [
+        "chikoo",
+        "sapota"
+      ],
+      "star fruit": [
+        "carambola"
+      ],
+      "passion fruit": [],
+      "persimmon": [],
+      "avocado": [],
+      "cherries": [
+        "cherry"
+      ],
+      "mulberry": [],
+      "gooseberry": [
+        "amla",
+        "Indian gooseberry"
+      ],
+      "wood apple": [
+        "bael"
+      ],
+      "tamarind": [
+        "imli"
+      ],
+      "ber": [
+        "Indian jujube"
+      ],
+      "jamun": [
+        "Java plum"
+      ],
+      "karonda": [],
+      "kokum": [],
+      "raw mango": [
+        "green mango",
+        "unripe mango"
+      ],
+      "plantain": [
+        "cooking banana"
+      ]
+    },
+    "vegetables": {
+      "potato": [
+        "aloo"
+      ],
+      "sweet potato": [
+        "shakarkandi"
+      ],
+      "tomato": [
+        "tamatar"
+      ],
+      "onion": [
+        "pyaaz"
+      ],
+      "red onion": [],
+      "spring onion": [
+        "scallion",
+        "green onion"
+      ],
+      "shallot": [],
+      "garlic": [
+        "lahsun"
+      ],
+      "ginger": [
+        "adrak"
+      ],
+      "carrot": [
+        "gajar"
+      ],
+      "radish": [
+        "mooli",
+        "daikon"
+      ],
+      "beetroot": [
+        "beet"
+      ],
+      "turnip": [
+        "shaljam"
+      ],
+      "parsnip": [],
+      "broccoli": [],
+      "cauliflower": [
+        "gobi"
+      ],
+      "cabbage": [
+        "patta gobi"
+      ],
+      "red cabbage": [],
+      "kale": [],
+      "spinach": [
+        "palak"
+      ],
+      "amaranth leaves": [
+        "chaulai"
+      ],
+      "fenugreek leaves": [
+        "methi leaves"
+      ],
+      "mustard greens": [
+        "sarson"
+      ],
+      "collard greens": [],
+      "lettuce": [],
+      "rocket leaves": [
+        "arugula"
+      ],
+      "bok choy": [
+        "pak choi"
+      ],
+      "water spinach": [],
+      "coriander leaves": [
+        "cilantro",
+        "dhania leaves"
+      ],
+      "mint leaves": [
+        "pudina"
+      ],
+      "curry leaves": [
+        "kadi patta"
+      ],
+      "drumstick leaves": [
+        "moringa leaves"
+      ],
+      "bottle gourd": [
+        "lauki"
+      ],
+      "bitter gourd": [
+        "karela"
+      ],
+      "ridge gourd": [
+        "turai"
+      ],
+      "sponge gourd": [
+        "ghiya tori"
+      ],
+      "snake gourd": [
+        "padwal"
+      ],
+      "ash gourd": [
+        "winter melon",
+        "petha"
+      ],
+      "pumpkin": [
+        "kaddu"
+      ],
+      "zucchini": [
+        "courgette"
+      ],
+      "cucumber": [
+        "kheera"
+      ],
+      "gherkin": [],
+      "eggplant": [
+        "brinjal",
+        "aubergine",
+        "baingan"
+      ],
+      "okra": [
+        "bhindi",
+        "ladyfinger"
+      ],
+      "capsicum": [
+        "bell pepper",
+        "shimla mirch"
+      ],
+      "red bell pepper": [],
+      "yellow bell pepper": [],
+      "green chilli": [
+        "hari mirch"
+      ],
+      "red chilli": [
+        "lal mirch"
+      ],
+      "jalapeno": [],
+      "peas": [
+        "matar",
+        "green peas"
+      ],
+      "snow peas": [],
+      "sugar snap peas": [],
+      "green beans": [
+        "french beans"
+      ],
+      "cluster beans": [
+        "gawar"
+      ],
+      "broad beans": [
+        "fava beans"
+      ],
+      "yardlong beans": [
+        "long beans"
+      ],
+      "corn": [
+        "maize",
+        "sweetcorn"
+      ],
+      "baby corn": [],
+      "mushroom": [
+        "mushrooms"
+      ],
+      "shiitake mushroom": [],
+      "oyster mushroom": [],
+      "button mushroom": [],
+      "enoki mushroom": [],
+      "asparagus": [],
+      "celery": [],
+      "fennel bulb": [],
+      "leek": [],
+      "artichoke": [],
+      "kohlrabi": [
+        "knol-khol"
+      ],
+      "water chestnut": [
+        "singhara"
+      ],
+      "lotus root": [
+        "kamal kakdi"
+      ],
+      "bamboo shoots": [],
+      "raw banana": [
+        "green banana"
+      ],
+      "raw papaya": [],
+      "banana flower": [
+        "banana blossom"
+      ],
+      "banana stem": [],
+      "taro root": [
+        "arbi",
+        "colocasia"
+      ],
+      "yam": [
+        "suran"
+      ],
+      "elephant foot yam": [
+        "jimikand"
+      ],
+      "cassava": [
+        "tapioca root"
+      ],
+      "tindora": [
+        "ivy gourd",
+        "kundru"
+      ],
+      "pointed gourd": [
+        "parwal"
+      ],
+      "chayote": [],
+      "chayote shoots": [],
+      "fiddlehead fern": [],
+      "red amaranth": [],
+      "purslane": [],
+      "jute leaves": [
+        "nalta"
+      ],
+      "malabar spinach": [
+        "poi saag"
+      ],
+      "watercress": [],
+      "endive": [],
+      "radicchio": [],
+      "chicory": [],
+      "banana pepper": [],
+      "turnip greens": [],
+      "pumpkin leaves": [],
+      "lotus stem": [
+        "nadru"
+      ]
+    },
+    "grains_cereals_and_flours": {
+      "white rice": [
+        "rice"
+      ],
+      "brown rice": [],
+      "basmati rice": [],
+      "jasmine rice": [],
+      "red rice": [],
+      "black rice": [],
+      "poha": [
+        "flattened rice"
+      ],
+      "puffed rice": [
+        "murmura",
+        "muri"
+      ],
+      "rice flour": [],
+      "wheat": [],
+      "whole wheat flour": [
+        "atta",
+        "wheat flour"
+      ],
+      "all-purpose flour": [
+        "maida"
+      ],
+      "semolina": [
+        "sooji",
+        "rava"
+      ],
+      "bulgur": [],
+      "couscous": [],
+      "oats": [
+        "rolled oats"
+      ],
+      "oat flour": [],
+      "barley": [
+        "jau"
+      ],
+      "millet": [
+        "bajra"
+      ],
+      "pearl millet": [
+        "bajra"
+      ],
+      "finger millet": [
+        "ragi",
+        "nachni"
+      ],
+      "sorghum": [
+        "jowar"
+      ],
+      "foxtail millet": [
+        "kangni"
+      ],
+      "little millet": [
+        "kutki"
+      ],
+      "kodo millet": [
+        "kodo"
+      ],
+      "barnyard millet": [
+        "sama"
+      ],
+      "proso millet": [],
+      "quinoa": [],
+      "buckwheat": [
+        "kuttu"
+      ],
+      "amaranth grain": [
+        "rajgira"
+      ],
+      "cornmeal": [
+        "makki atta"
+      ],
+      "cornflour": [],
+      "gram flour": [
+        "besan",
+        "chickpea flour"
+      ],
+      "lentil flour": [],
+      "pasta": [],
+      "spaghetti": [],
+      "macaroni": [],
+      "noodles": [],
+      "vermicelli": [
+        "seviyan"
+      ],
+      "bread": [],
+      "whole wheat bread": [],
+      "breadcrumbs": [],
+      "pita bread": [],
+      "tortilla": [],
+      "corn tortillas": [],
+      "crackers": [],
+      "rice noodles": [],
+      "sourdough bread": [],
+      "pancake mix": []
+    },
+    "pulses_legumes_and_beans": {
+      "red lentils": [
+        "masoor dal"
+      ],
+      "yellow split lentils": [
+        "moong dal"
+      ],
+      "green gram": [
+        "whole moong"
+      ],
+      "black gram": [
+        "urad dal"
+      ],
+      "split black gram": [
+        "dhuli urad dal"
+      ],
+      "pigeon peas": [
+        "toor dal",
+        "arhar dal"
+      ],
+      "split chickpeas": [
+        "chana dal"
+      ],
+      "brown chickpeas": [
+        "kala chana"
+      ],
+      "chickpeas": [
+        "kabuli chana",
+        "garbanzo beans"
+      ],
+      "kidney beans": [
+        "rajma"
+      ],
+      "black beans": [],
+      "black-eyed peas": [
+        "lobia"
+      ],
+      "cowpeas": [
+        "chawli"
+      ],
+      "mung beans": [
+        "moong beans"
+      ],
+      "moth beans": [
+        "matki"
+      ],
+      "horse gram": [
+        "kulthi"
+      ],
+      "soybeans": [],
+      "edamame": [],
+      "green peas": [
+        "dried peas"
+      ],
+      "white beans": [],
+      "navy beans": [],
+      "pinto beans": [],
+      "cannellini beans": [],
+      "lima beans": [],
+      "fava beans": [
+        "broad beans"
+      ],
+      "split peas": [],
+      "sprouted moong": [
+        "moong sprouts"
+      ],
+      "sprouted chickpeas": [
+        "chana sprouts"
+      ],
+      "tempeh": [],
+      "tofu": []
+    },
+    "dairy_and_alternatives": {
+      "milk": [],
+      "whole milk": [],
+      "skimmed milk": [],
+      "curd": [
+        "dahi",
+        "yogurt"
+      ],
+      "Greek yogurt": [],
+      "buttermilk": [
+        "chaas"
+      ],
+      "paneer": [
+        "Indian cottage cheese"
+      ],
+      "cheddar cheese": [],
+      "mozzarella cheese": [],
+      "parmesan cheese": [],
+      "cream cheese": [],
+      "cottage cheese": [],
+      "butter": [],
+      "white butter": [
+        "makkhan"
+      ],
+      "ghee": [
+        "clarified butter"
+      ],
+      "cream": [],
+      "condensed milk": [],
+      "evaporated milk": [],
+      "milk powder": [],
+      "whey": [],
+      "feta cheese": [],
+      "ricotta cheese": [],
+      "sour cream": [],
+      "oat milk": [],
+      "almond milk": [],
+      "soy milk": [],
+      "coconut milk": [],
+      "cashew milk": [],
+      "plant-based yogurt": []
+    },
+    "eggs_meat_and_seafood": {
+      "egg": [
+        "eggs"
+      ],
+      "chicken": [],
+      "chicken breast": [],
+      "chicken thigh": [],
+      "mutton": [
+        "goat meat"
+      ],
+      "lamb": [],
+      "beef": [],
+      "pork": [],
+      "turkey": [],
+      "duck": [],
+      "fish": [],
+      "salmon": [],
+      "tuna": [],
+      "sardines": [],
+      "mackerel": [],
+      "prawns": [
+        "shrimp"
+      ],
+      "crab": [],
+      "lobster": [],
+      "mussels": [],
+      "clams": [],
+      "squid": [],
+      "anchovies": []
+    },
+    "nuts_and_seeds": {
+      "almonds": [
+        "badam"
+      ],
+      "cashews": [
+        "kaju"
+      ],
+      "pistachios": [
+        "pista"
+      ],
+      "walnuts": [
+        "akhrot"
+      ],
+      "peanuts": [
+        "groundnuts",
+        "moongphali"
+      ],
+      "hazelnuts": [],
+      "pecans": [],
+      "macadamia nuts": [],
+      "pine nuts": [],
+      "brazil nuts": [],
+      "chestnuts": [],
+      "chia seeds": [],
+      "flax seeds": [
+        "linseeds",
+        "alsi"
+      ],
+      "sesame seeds": [
+        "til"
+      ],
+      "pumpkin seeds": [],
+      "sunflower seeds": [],
+      "poppy seeds": [
+        "khus khus"
+      ],
+      "hemp seeds": [],
+      "melon seeds": [],
+      "mustard seeds": [],
+      "coconut flakes": [],
+      "desiccated coconut": [],
+      "peanut butter": [],
+      "almond butter": [],
+      "tahini": []
+    },
+    "spices_herbs_and_seasonings": {
+      "salt": [],
+      "black salt": [
+        "kala namak"
+      ],
+      "black pepper": [
+        "kali mirch"
+      ],
+      "white pepper": [],
+      "turmeric": [
+        "haldi"
+      ],
+      "cumin seeds": [
+        "jeera"
+      ],
+      "cumin powder": [],
+      "coriander seeds": [
+        "dhania seeds"
+      ],
+      "coriander powder": [
+        "dhania powder"
+      ],
+      "red chilli powder": [
+        "lal mirch powder"
+      ],
+      "chilli flakes": [],
+      "paprika": [],
+      "cayenne pepper": [],
+      "garam masala": [],
+      "curry powder": [],
+      "mustard powder": [],
+      "fenugreek seeds": [
+        "methi dana"
+      ],
+      "fenugreek leaves dried": [
+        "kasuri methi"
+      ],
+      "carom seeds": [
+        "ajwain"
+      ],
+      "asafoetida": [
+        "hing"
+      ],
+      "fennel seeds": [
+        "saunf"
+      ],
+      "nigella seeds": [
+        "kalonji"
+      ],
+      "cardamom": [
+        "elaichi"
+      ],
+      "green cardamom": [],
+      "black cardamom": [],
+      "cinnamon": [
+        "dalchini"
+      ],
+      "cloves": [
+        "laung"
+      ],
+      "bay leaf": [
+        "tej patta"
+      ],
+      "star anise": [
+        "chakra phool"
+      ],
+      "nutmeg": [
+        "jaiphal"
+      ],
+      "mace": [
+        "javitri"
+      ],
+      "saffron": [
+        "kesar"
+      ],
+      "black mustard seeds": [],
+      "yellow mustard seeds": [],
+      "oregano": [],
+      "thyme": [],
+      "rosemary": [],
+      "basil": [],
+      "parsley": [],
+      "dill": [],
+      "sage": [],
+      "chives": [],
+      "lemongrass": [],
+      "mint": [
+        "pudina"
+      ],
+      "coriander leaves": [
+        "cilantro",
+        "fresh dhania"
+      ],
+      "curry leaves": [
+        "kadi patta"
+      ],
+      "pandan leaves": [],
+      "vanilla": [
+        "vanilla extract"
+      ],
+      "cocoa powder": [],
+      "sumac": [],
+      "za'atar": [],
+      "five-spice powder": [],
+      "chaat masala": [],
+      "pav bhaji masala": [],
+      "sambar powder": [],
+      "rasam powder": [],
+      "biryani masala": [],
+      "tandoori masala": [],
+      "amchur": [
+        "dry mango powder"
+      ],
+      "anardana": [
+        "dried pomegranate seeds"
+      ]
+    },
+    "oils_fats_and_condiments": {
+      "vegetable oil": [
+        "cooking oil"
+      ],
+      "mustard oil": [],
+      "olive oil": [],
+      "coconut oil": [],
+      "sesame oil": [],
+      "sunflower oil": [],
+      "groundnut oil": [
+        "peanut oil"
+      ],
+      "ghee": [],
+      "vinegar": [],
+      "apple cider vinegar": [],
+      "soy sauce": [],
+      "tomato ketchup": [
+        "ketchup"
+      ],
+      "tomato paste": [],
+      "tomato puree": [],
+      "mayonnaise": [],
+      "mustard sauce": [],
+      "hot sauce": [],
+      "chilli sauce": [],
+      "barbecue sauce": [],
+      "pesto": [],
+      "hummus": [],
+      "pickle": [
+        "achar"
+      ],
+      "lemon juice": [],
+      "tamarind paste": [],
+      "coconut chutney": [],
+      "mint chutney": [],
+      "green chutney": [],
+      "peanut chutney": [],
+      "stock": [],
+      "vegetable stock": [],
+      "chicken stock": []
+    },
+    "sweeteners_and_baking": {
+      "sugar": [],
+      "brown sugar": [],
+      "powdered sugar": [
+        "icing sugar"
+      ],
+      "jaggery": [
+        "gur"
+      ],
+      "honey": [],
+      "maple syrup": [],
+      "date syrup": [],
+      "molasses": [],
+      "stevia": [],
+      "baking powder": [],
+      "baking soda": [
+        "sodium bicarbonate"
+      ],
+      "yeast": [],
+      "cocoa butter": [],
+      "dark chocolate": [],
+      "milk chocolate": [],
+      "white chocolate": [],
+      "chocolate chips": [],
+      "gelatin": [],
+      "cornstarch": [
+        "cornflour in some regions"
+      ],
+      "custard powder": [],
+      "desiccated coconut": [],
+      "coconut sugar": [],
+      "vanilla extract": [],
+      "food-grade rose water": [],
+      "orange blossom water": []
+    },
+    "regional_and_prepared_ingredients": {
+      "idli batter": [],
+      "dosa batter": [],
+      "dhokla batter": [],
+      "besan batter": [],
+      "paneer tikka marinade": [],
+      "tamarind chutney": [],
+      "sattu": [],
+      "makhana": [
+        "fox nuts"
+      ],
+      "sabudana": [
+        "sago",
+        "tapioca pearls"
+      ],
+      "papad": [
+        "papadum"
+      ],
+      "sev": [],
+      "boondi": [],
+      "badi": [],
+      "miso paste": [],
+      "kimchi": [],
+      "sauerkraut": [],
+      "curry paste": [],
+      "harissa": [],
+      "gochujang": [],
+      "nori": [
+        "seaweed sheets"
+      ],
+      "rice paper": [],
+      "spring roll wrappers": [],
+      "puff pastry": [],
+      "phyllo pastry": [],
+      "dumpling wrappers": [],
+      "pizza dough": [],
+      "sourdough starter": [],
+      "paneer": [],
+      "frozen peas": [],
+      "frozen corn": [],
+      "mixed vegetables": [],
+      "canned tomatoes": [],
+      "canned chickpeas": [],
+      "canned beans": [],
+      "canned coconut milk": [],
+      "vegetable puree": []
+    }
+  }
+}

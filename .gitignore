@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# Temporary files
+uploaded_ingredients.jpg
+
+# YOLO generated files
+runs/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Unused model and test image
+yolo11n.pt
+bus.jpg

@@ -1,0 +1,7059 @@
+{
+  "metadata": {
+    "name": "Smart Kitchen AI Recipe Database",
+    "version": "1.1",
+    "description": "Starter recipe catalogue. Every ingredient 'name' uses the canonical key from the Smart Kitchen AI Ingredient Database (not aliases), so recipes can be matched by exact string.",
+    "important_note": "'water' is treated as an implicit ingredient and is not listed in ingredients. Quantities are for the stated servings.",
+    "total_recipes": 106,
+    "schema": {
+      "id": "unique slug",
+      "diet": "vegan | vegetarian | eggetarian | non-vegetarian",
+      "meal_type": "breakfast | lunch | dinner | snack | dessert | side | drink",
+      "difficulty": "easy | medium | hard",
+      "ingredients[].optional": "true = recipe works without it; matcher should not require it",
+      "ingredients[].unit": "g | ml | tsp | tbsp | cup | piece | pinch | to taste"
+    }
+  },
+  "recipes": [
+    {
+      "id": "aloo-jeera",
+      "name": "Jeera Aloo",
+      "cuisine": "North Indian",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "potato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Boil potatoes until just tender, cool, peel and cube them.",
+        "Heat oil and splutter the cumin seeds.",
+        "Add turmeric, chilli powder and the potatoes; toss on medium heat for 5-7 minutes until lightly crisp.",
+        "Season with salt and garnish with coriander leaves."
+      ],
+      "tags": [
+        "quick",
+        "dry-sabzi",
+        "everyday"
+      ]
+    },
+    {
+      "id": "dal-tadka",
+      "name": "Dal Tadka",
+      "cuisine": "North Indian",
+      "meal_type": "lunch",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "pigeon peas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Pressure cook the washed dal with turmeric and salt until soft; mash lightly.",
+        "Heat ghee, add cumin seeds, garlic and green chilli.",
+        "Add chopped onion and cook until golden, then add tomatoes and chilli powder until soft.",
+        "Pour the tempering over the dal, simmer 5 minutes and garnish with coriander."
+      ],
+      "tags": [
+        "comfort-food",
+        "protein-rich",
+        "everyday"
+      ]
+    },
+    {
+      "id": "moong-dal-khichdi",
+      "name": "Moong Dal Khichdi",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "white rice",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "yellow split lentils",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "asafoetida",
+          "qty": 1,
+          "unit": "pinch",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Wash rice and dal together.",
+        "Heat ghee, add cumin, asafoetida and grated ginger.",
+        "Add rice, dal, turmeric, salt and about 4 cups water.",
+        "Pressure cook for 3-4 whistles until soft and porridge-like."
+      ],
+      "tags": [
+        "light",
+        "one-pot",
+        "easy-digest"
+      ]
+    },
+    {
+      "id": "chana-masala",
+      "name": "Chana Masala",
+      "cuisine": "North Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "amchur",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak chickpeas overnight and pressure cook until soft (or use canned).",
+        "Fry cumin, then onions until brown; add ginger and garlic.",
+        "Add tomatoes and ground spices; cook to a thick masala.",
+        "Add chickpeas and a cup of water, simmer 10-15 minutes, finish with garam masala and amchur."
+      ],
+      "tags": [
+        "protein-rich",
+        "classic"
+      ]
+    },
+    {
+      "id": "rajma",
+      "name": "Rajma Masala",
+      "cuisine": "Punjabi",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 40,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "kidney beans",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak kidney beans overnight, then pressure cook with salt until very soft.",
+        "Make a masala of cumin, onion, ginger-garlic, tomatoes and spices.",
+        "Add beans with their liquid, mash a few to thicken, simmer 15 minutes.",
+        "Serve with white rice."
+      ],
+      "tags": [
+        "comfort-food",
+        "protein-rich"
+      ]
+    },
+    {
+      "id": "palak-paneer",
+      "name": "Palak Paneer",
+      "cuisine": "North Indian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "spinach",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "paneer",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cream",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Blanch spinach for 2 minutes, plunge in cold water and blend with green chilli.",
+        "Fry cumin, onion, ginger and garlic in ghee; add tomato and cook down.",
+        "Add spinach puree, salt and garam masala; simmer 5 minutes.",
+        "Add paneer cubes and cream; warm through."
+      ],
+      "tags": [
+        "iron-rich",
+        "restaurant-style"
+      ]
+    },
+    {
+      "id": "matar-paneer",
+      "name": "Matar Paneer",
+      "cuisine": "North Indian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "paneer",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "peas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Blend onion and tomato into a smooth paste.",
+        "Cook ginger-garlic and the paste in oil with spices until oil separates.",
+        "Add peas and a little water; simmer 8 minutes.",
+        "Add paneer cubes, simmer 3 minutes and finish with garam masala."
+      ],
+      "tags": [
+        "restaurant-style",
+        "gravy"
+      ]
+    },
+    {
+      "id": "aloo-gobi",
+      "name": "Aloo Gobi",
+      "cuisine": "North Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "cauliflower",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "potato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Cut cauliflower into florets and potatoes into cubes.",
+        "Temper cumin in oil; fry onion and ginger, then tomato.",
+        "Add vegetables and spices, cover and cook on low until tender, stirring occasionally."
+      ],
+      "tags": [
+        "dry-sabzi",
+        "everyday"
+      ]
+    },
+    {
+      "id": "bhindi-masala",
+      "name": "Bhindi Masala",
+      "cuisine": "North Indian",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "okra",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "amchur",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Wash okra, dry thoroughly and slice.",
+        "Fry okra in oil on medium heat until the stickiness goes; set aside.",
+        "Temper cumin, cook onion and tomato with spices, return okra and toss; finish with amchur."
+      ],
+      "tags": [
+        "dry-sabzi",
+        "quick"
+      ]
+    },
+    {
+      "id": "baingan-bharta",
+      "name": "Baingan Bharta",
+      "cuisine": "Punjabi",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "eggplant",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Roast the whole eggplant over flame or in oven until charred and soft; peel and mash.",
+        "Temper cumin, cook garlic, chilli, onion and tomato with spices.",
+        "Add mashed eggplant and cook 8-10 minutes; garnish with coriander."
+      ],
+      "tags": [
+        "smoky",
+        "dry-sabzi"
+      ]
+    },
+    {
+      "id": "lauki-sabzi",
+      "name": "Lauki Sabzi",
+      "cuisine": "Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "bottle gourd",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Peel and cube the bottle gourd.",
+        "Temper cumin and green chilli, add tomato and spices.",
+        "Add lauki, cover and cook until tender, about 12-15 minutes."
+      ],
+      "tags": [
+        "light",
+        "everyday"
+      ]
+    },
+    {
+      "id": "veg-pulao",
+      "name": "Vegetable Pulao",
+      "cuisine": "Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "basmati rice",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "peas",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green beans",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "bay leaf",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cloves",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "cinnamon",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak basmati rice for 20 minutes.",
+        "Temper whole spices and cumin in oil; fry onion until golden.",
+        "Add chopped vegetables, rice, salt and 3 cups water.",
+        "Cook covered until water is absorbed; rest 5 minutes."
+      ],
+      "tags": [
+        "one-pot",
+        "lunchbox"
+      ]
+    },
+    {
+      "id": "jeera-rice",
+      "name": "Jeera Rice",
+      "cuisine": "Indian",
+      "meal_type": "side",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "basmati rice",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Wash and soak rice 15 minutes.",
+        "Heat ghee, crackle cumin, add rice and sauté 1 minute.",
+        "Add 2 cups water and salt; cook covered until fluffy."
+      ],
+      "tags": [
+        "quick",
+        "side-dish"
+      ]
+    },
+    {
+      "id": "poha",
+      "name": "Kanda Poha",
+      "cuisine": "Maharashtrian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "poha",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "potato",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "peanuts",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Rinse poha in a colander until soft; drain well.",
+        "Fry peanuts, then mustard seeds, curry leaves and chilli.",
+        "Add onion (and diced potato) and cook until soft; add turmeric.",
+        "Fold in poha, salt and sugar, heat 2 minutes; finish with lemon juice and coriander."
+      ],
+      "tags": [
+        "quick",
+        "breakfast",
+        "light"
+      ]
+    },
+    {
+      "id": "rava-upma",
+      "name": "Rava Upma",
+      "cuisine": "South Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "semolina",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "peas",
+          "qty": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Dry roast semolina until fragrant; set aside.",
+        "Temper mustard seeds, curry leaves, chilli, ginger; cook onion and vegetables.",
+        "Add 2.5 cups boiling water and salt, then stream in semolina while stirring.",
+        "Cover and cook 3 minutes on low."
+      ],
+      "tags": [
+        "quick",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "besan-chilla",
+      "name": "Besan Chilla",
+      "cuisine": "North Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "gram flour",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "carom seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Whisk gram flour with water into a smooth, pourable batter; add spices and salt.",
+        "Fold in chopped onion, tomato, chilli and coriander.",
+        "Pour onto a hot greased pan, spread thin and cook both sides until golden."
+      ],
+      "tags": [
+        "protein-rich",
+        "quick",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "aloo-paratha",
+      "name": "Aloo Paratha",
+      "cuisine": "Punjabi",
+      "meal_type": "breakfast",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 25,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "whole wheat flour",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "potato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "amchur",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "ghee",
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Knead flour, salt and water into a soft dough; rest 15 minutes.",
+        "Mash boiled potatoes with chilli, coriander, spices and salt.",
+        "Stuff dough balls with filling, roll out gently.",
+        "Cook on a hot tawa with ghee until golden on both sides."
+      ],
+      "tags": [
+        "stuffed",
+        "weekend"
+      ]
+    },
+    {
+      "id": "masala-omelette",
+      "name": "Masala Omelette",
+      "cuisine": "Indian",
+      "meal_type": "breakfast",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 5,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "egg",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Beat eggs with chopped onion, tomato, chilli, coriander, pepper and salt.",
+        "Melt butter in a pan, pour in the mixture and cook until set.",
+        "Fold and serve hot with bread."
+      ],
+      "tags": [
+        "quick",
+        "high-protein",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "egg-curry",
+      "name": "Egg Curry",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "eggetarian",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "egg",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Hard boil eggs, peel and lightly score them.",
+        "Cook onion, ginger-garlic and tomato with spices into a thick masala.",
+        "Add water for gravy, drop in eggs and simmer 8 minutes; finish with garam masala."
+      ],
+      "tags": [
+        "gravy",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "chicken-curry",
+      "name": "Home-style Chicken Curry",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 40,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate chicken with curd, turmeric and salt for 20 minutes.",
+        "Brown onions in oil; add ginger-garlic, then tomato and spices.",
+        "Add chicken, cook covered on low for 25-30 minutes until tender.",
+        "Finish with garam masala."
+      ],
+      "tags": [
+        "gravy",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "mutton-curry",
+      "name": "Mutton Curry",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "hard",
+      "prep_time_min": 20,
+      "cook_time_min": 60,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "mutton",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "bay leaf",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "cloves",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "mustard oil",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate mutton with curd, ginger-garlic and salt for at least 1 hour.",
+        "Heat mustard oil, add bay leaf and cloves, brown the onions deeply.",
+        "Add mutton and spices, sear 10 minutes, add tomato.",
+        "Pressure cook 6-8 whistles until tender; finish with garam masala."
+      ],
+      "tags": [
+        "slow-cooked",
+        "weekend"
+      ]
+    },
+    {
+      "id": "fish-curry",
+      "name": "Simple Fish Curry",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "fish",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "mustard oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Rub fish with turmeric and salt; lightly fry and set aside.",
+        "Cook onion, ginger-garlic and tomato with spices into a masala.",
+        "Add water, bring to a simmer and slide in the fish; cook 8 minutes without stirring hard."
+      ],
+      "tags": [
+        "gravy",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "veg-fried-rice",
+      "name": "Vegetable Fried Rice",
+      "cuisine": "Indo-Chinese",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "white rice",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "capsicum",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Use cooked, cooled rice so grains stay separate.",
+        "Stir-fry garlic and chopped vegetables on high heat for 2-3 minutes.",
+        "Add rice, soy sauce, pepper and salt; toss 2 minutes and top with spring onion greens."
+      ],
+      "tags": [
+        "quick",
+        "leftover-rice"
+      ]
+    },
+    {
+      "id": "veg-hakka-noodles",
+      "name": "Veg Hakka Noodles",
+      "cuisine": "Indo-Chinese",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "noodles",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "cabbage",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "capsicum",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "chilli sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "vinegar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil noodles al dente, drain, rinse and toss with a little oil.",
+        "Stir-fry garlic and julienned vegetables on high heat.",
+        "Add noodles, sauces, vinegar and salt; toss well."
+      ],
+      "tags": [
+        "quick",
+        "street-style"
+      ]
+    },
+    {
+      "id": "veg-manchurian-dry",
+      "name": "Veg Manchurian (Dry)",
+      "cuisine": "Indo-Chinese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "cabbage",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cornflour",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "chilli sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "tomato ketchup",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Grate cabbage and carrot, squeeze out moisture, mix with cornflour, flour and salt; shape into balls.",
+        "Deep fry until golden and drain.",
+        "Sauté ginger, garlic and spring onion; add soy, chilli sauce and ketchup.",
+        "Toss in the balls to coat."
+      ],
+      "tags": [
+        "party",
+        "fried"
+      ]
+    },
+    {
+      "id": "paneer-bhurji",
+      "name": "Paneer Bhurji",
+      "cuisine": "North Indian",
+      "meal_type": "breakfast",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "paneer",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Crumble the paneer.",
+        "Melt butter, crackle cumin, cook onion, chilli and tomato with spices.",
+        "Add paneer, toss 3-4 minutes and finish with garam masala."
+      ],
+      "tags": [
+        "high-protein",
+        "quick"
+      ]
+    },
+    {
+      "id": "veg-sandwich",
+      "name": "Grilled Veg Cheese Sandwich",
+      "cuisine": "Continental",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 8,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "bread",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "cucumber",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "capsicum",
+          "qty": 0.5,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "cheddar cheese",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Butter the bread slices.",
+        "Layer sliced vegetables, pepper and salt, top with grated cheese.",
+        "Close and grill or toast until golden and the cheese melts."
+      ],
+      "tags": [
+        "quick",
+        "kids-friendly"
+      ]
+    },
+    {
+      "id": "tomato-pasta",
+      "name": "Tomato Basil Pasta",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "pasta",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "tomato",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "basil",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "chilli flakes",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "parmesan cheese",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil pasta in salted water until al dente; reserve a cup of pasta water.",
+        "Sauté garlic in olive oil, add chopped tomatoes and cook into a sauce.",
+        "Toss pasta in the sauce with a splash of pasta water, then add basil. Top with parmesan if using."
+      ],
+      "tags": [
+        "quick",
+        "pantry-friendly"
+      ]
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "cuisine": "Indian",
+      "meal_type": "drink",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 2,
+      "cook_time_min": 8,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "milk",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cardamom",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "sugar",
+          "qty": 2,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Boil 1 cup water with crushed ginger and cardamom for 2 minutes.",
+        "Add 1 tsp tea leaves (not in the ingredient catalogue), then the milk and sugar.",
+        "Simmer 3-4 minutes, strain and serve."
+      ],
+      "tags": [
+        "beverage",
+        "classic"
+      ]
+    },
+    {
+      "id": "sooji-halwa",
+      "name": "Sooji Halwa",
+      "cuisine": "Indian",
+      "meal_type": "dessert",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "semolina",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ghee",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "cardamom",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "almonds",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "raisins",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Roast semolina in ghee on low heat until fragrant and golden.",
+        "Add 1.5 cups hot water carefully along with sugar and cardamom.",
+        "Stir until thick and ghee separates; garnish with almonds and raisins."
+      ],
+      "tags": [
+        "festive",
+        "quick-sweet"
+      ]
+    },
+    {
+      "id": "banana-oat-pancakes",
+      "name": "Banana Oat Pancakes",
+      "cuisine": "Continental",
+      "meal_type": "breakfast",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "banana",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "oats",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "honey",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Blend bananas, oats and egg into a thick batter.",
+        "Cook small rounds on a buttered pan until bubbles form, flip and cook 1-2 minutes.",
+        "Serve with honey."
+      ],
+      "tags": [
+        "healthy",
+        "no-flour",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "rice-paper-rolls",
+      "name": "Fresh Veg Rice Paper Rolls",
+      "cuisine": "Vietnamese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 20,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "rice paper",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "rice noodles",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cucumber",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "lettuce",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "mint leaves",
+          "qty": 12,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "peanut butter",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lime",
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      ],
+      "steps": [
+        "Cook rice noodles, drain and cool; julienne the carrot and cucumber.",
+        "Whisk peanut butter, soy sauce, lime juice and a little water into a dipping sauce.",
+        "Dip each rice paper in warm water for a few seconds, fill with noodles, vegetables and herbs, fold in the sides and roll tightly."
+      ],
+      "tags": [
+        "no-cook",
+        "light",
+        "party"
+      ]
+    },
+    {
+      "id": "crispy-rice-paper-rolls",
+      "name": "Crispy Fried Rice Paper Rolls",
+      "cuisine": "Vietnamese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 25,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "rice paper",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "cabbage",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "mushroom",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "garlic",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Stir-fry garlic, shredded vegetables and mushrooms with soy sauce and pepper; cool completely.",
+        "Soften a rice paper sheet, add filling and roll tightly.",
+        "Shallow fry in hot oil until golden and crisp, turning once."
+      ],
+      "tags": [
+        "fried",
+        "party",
+        "crispy"
+      ]
+    },
+    {
+      "id": "gochujang-tofu",
+      "name": "Gochujang Glazed Tofu",
+      "cuisine": "Korean",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "tofu",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "gochujang",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "honey",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Press tofu, cube it and pan-fry in oil until golden on all sides.",
+        "Mix gochujang, soy sauce, honey, minced garlic and sesame oil into a glaze.",
+        "Toss tofu in the glaze over low heat until sticky; top with sesame seeds and spring onion. Serve with white rice."
+      ],
+      "tags": [
+        "spicy",
+        "high-protein",
+        "glazed"
+      ]
+    },
+    {
+      "id": "gochujang-chicken",
+      "name": "Gochujang Chicken",
+      "cuisine": "Korean",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "chicken thigh",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "gochujang",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "honey",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Marinate chicken with gochujang, soy sauce, honey, garlic, ginger and sesame oil for 30 minutes.",
+        "Sear chicken in oil until browned, add sliced onion.",
+        "Cover and cook on low 15 minutes until cooked through and sticky."
+      ],
+      "tags": [
+        "spicy",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "kimchi-fried-rice",
+      "name": "Kimchi Fried Rice",
+      "cuisine": "Korean",
+      "meal_type": "dinner",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "white rice",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "kimchi",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "gochujang",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "egg",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "nori",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Stir-fry chopped kimchi in oil for 3 minutes; stir in gochujang.",
+        "Add cooked, cooled rice and toss on high heat.",
+        "Top with fried eggs, spring onion, sesame oil and shredded nori."
+      ],
+      "tags": [
+        "quick",
+        "leftover-rice",
+        "spicy"
+      ]
+    },
+    {
+      "id": "kimchi-jjigae",
+      "name": "Kimchi Tofu Stew",
+      "cuisine": "Korean",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "kimchi",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "tofu",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "gochujang",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "vegetable stock",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "mushroom",
+          "qty": 100,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Sauté kimchi, onion and garlic in sesame oil for 4 minutes.",
+        "Add gochujang and vegetable stock; simmer 10 minutes.",
+        "Add cubed tofu and mushrooms, simmer 5 minutes more; top with spring onion."
+      ],
+      "tags": [
+        "soup",
+        "spicy",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "miso-soup",
+      "name": "Miso Soup",
+      "cuisine": "Japanese",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "miso paste",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "tofu",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "nori",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "enoki mushroom",
+          "qty": 50,
+          "unit": "g",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Bring 2 cups water to a gentle simmer and add cubed tofu and mushrooms for 3 minutes.",
+        "Turn off the heat; whisk miso with a ladle of hot broth, then stir it back in (do not boil).",
+        "Garnish with spring onion and torn nori."
+      ],
+      "tags": [
+        "soup",
+        "quick",
+        "light"
+      ]
+    },
+    {
+      "id": "miso-glazed-eggplant",
+      "name": "Miso Glazed Eggplant",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "eggplant",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "miso paste",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "honey",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "spring onion",
+          "qty": 1,
+          "unit": "piece"
+        }
+      ],
+      "steps": [
+        "Halve eggplants, score the flesh and brush with sesame oil; roast at 200C for 20 minutes.",
+        "Mix miso with honey and a splash of water, spread over the flesh.",
+        "Grill 3-4 minutes until bubbling; top with sesame seeds and spring onion."
+      ],
+      "tags": [
+        "umami",
+        "roasted"
+      ]
+    },
+    {
+      "id": "veg-sushi-rolls",
+      "name": "Vegetable Sushi Rolls",
+      "cuisine": "Japanese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "hard",
+      "prep_time_min": 30,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "jasmine rice",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "nori",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "cucumber",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "avocado",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vinegar",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Cook rice and fold in vinegar, sugar and salt; cool to room temperature.",
+        "Spread rice over nori leaving a border; lay cucumber, carrot and avocado strips along one edge.",
+        "Roll tightly, slice with a wet knife and serve with soy sauce."
+      ],
+      "tags": [
+        "party",
+        "no-fry"
+      ]
+    },
+    {
+      "id": "veg-dumplings",
+      "name": "Pan-Fried Veg Dumplings",
+      "cuisine": "Chinese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 30,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "dumpling wrappers",
+          "qty": 20,
+          "unit": "piece"
+        },
+        {
+          "name": "cabbage",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "mushroom",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Finely chop vegetables, squeeze out moisture and mix with ginger, garlic, soy sauce and sesame oil.",
+        "Fill and pleat the wrappers.",
+        "Fry bottoms in oil until golden, add a splash of water, cover and steam 5 minutes."
+      ],
+      "tags": [
+        "street-food",
+        "party"
+      ]
+    },
+    {
+      "id": "veg-spring-rolls",
+      "name": "Veg Spring Rolls",
+      "cuisine": "Indo-Chinese",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 25,
+      "cook_time_min": 15,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "spring roll wrappers",
+          "qty": 10,
+          "unit": "piece"
+        },
+        {
+          "name": "cabbage",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "capsicum",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Stir-fry garlic and shredded vegetables on high heat with soy sauce and pepper; cool.",
+        "Roll filling into wrappers and seal edges with water.",
+        "Deep fry until golden and crisp."
+      ],
+      "tags": [
+        "fried",
+        "party"
+      ]
+    },
+    {
+      "id": "pad-thai-style-noodles",
+      "name": "Peanut Rice Noodle Stir-Fry",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "rice noodles",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "tofu",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "peanuts",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "tamarind paste",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lime",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Soak rice noodles in warm water until just flexible; drain.",
+        "Fry tofu until golden, add garlic, then noodles with soy sauce, tamarind paste and sugar.",
+        "Toss until glossy; top with crushed peanuts, spring onion and lime."
+      ],
+      "tags": [
+        "street-style",
+        "sweet-sour"
+      ]
+    },
+    {
+      "id": "idli-sambar",
+      "name": "Idli with Sambar",
+      "cuisine": "South Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "idli batter",
+          "qty": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "pigeon peas",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "sambar powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "tamarind paste",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Steam idli batter in greased moulds for 12 minutes.",
+        "Pressure cook dal until mushy; simmer with chopped vegetables, tamarind paste, sambar powder and salt.",
+        "Temper mustard seeds and curry leaves in oil, pour over the sambar and serve with idlis."
+      ],
+      "tags": [
+        "fermented",
+        "classic",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "masala-dosa",
+      "name": "Masala Dosa",
+      "cuisine": "South Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "dosa batter",
+          "qty": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "potato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coconut chutney",
+          "qty": 0.5,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil and roughly mash potatoes.",
+        "Temper mustard seeds, curry leaves and chilli; cook onion, add turmeric, salt and potatoes for the filling.",
+        "Spread batter thin on a hot tawa, drizzle oil, cook until crisp, fill and fold. Serve with chutney."
+      ],
+      "tags": [
+        "fermented",
+        "classic",
+        "weekend"
+      ]
+    },
+    {
+      "id": "onion-uttapam",
+      "name": "Onion Tomato Uttapam",
+      "cuisine": "South Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "dosa batter",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coconut chutney",
+          "qty": 0.5,
+          "unit": "cup",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Pour a thick round of batter on a hot tawa.",
+        "Scatter chopped onion, tomato, chilli and coriander and press in lightly.",
+        "Drizzle oil, cook covered until set and golden underneath, flip briefly. Serve with chutney."
+      ],
+      "tags": [
+        "fermented",
+        "quick"
+      ]
+    },
+    {
+      "id": "khaman-dhokla",
+      "name": "Dhokla",
+      "cuisine": "Gujarati",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "dhokla batter",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "baking soda",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Gently fold baking soda into the batter and pour into a greased plate.",
+        "Steam 15 minutes until a skewer comes out clean; cool and cut into squares.",
+        "Temper mustard seeds, chilli, curry leaves and sesame seeds in oil with a splash of sugar water; pour over and garnish."
+      ],
+      "tags": [
+        "steamed",
+        "tea-time"
+      ]
+    },
+    {
+      "id": "sabudana-khichdi",
+      "name": "Sabudana Khichdi",
+      "cuisine": "Maharashtrian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "sabudana",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "potato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "peanuts",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak sabudana for 4-6 hours until pearls are soft; drain well.",
+        "Fry cumin, chilli, cubed potato and crushed roasted peanuts.",
+        "Add sabudana, salt and sugar; cook on low until translucent and finish with lemon juice."
+      ],
+      "tags": [
+        "fasting",
+        "vrat",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "roasted-makhana",
+      "name": "Masala Roasted Makhana",
+      "cuisine": "Indian",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 2,
+      "cook_time_min": 10,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "makhana",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "chaat masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Roast makhana in ghee on low heat, stirring, until crisp (about 8 minutes).",
+        "Toss with pepper, chaat masala and salt while warm."
+      ],
+      "tags": [
+        "healthy",
+        "fasting",
+        "tea-time"
+      ]
+    },
+    {
+      "id": "sattu-drink",
+      "name": "Sattu Sharbat",
+      "cuisine": "Bihari",
+      "meal_type": "drink",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "sattu",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black salt",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "cumin powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "mint leaves",
+          "qty": 8,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Whisk sattu into 2 cups cold water until lump-free.",
+        "Stir in lemon juice, black salt, cumin powder and mint; serve chilled."
+      ],
+      "tags": [
+        "summer",
+        "cooling",
+        "protein-rich"
+      ]
+    },
+    {
+      "id": "sattu-paratha",
+      "name": "Sattu Paratha",
+      "cuisine": "Bihari",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 25,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "whole wheat flour",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "sattu",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "carom seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "mustard oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Knead flour, salt and water into a soft dough.",
+        "Mix sattu with chopped onion, chilli, carom seeds, lemon juice, mustard oil and salt for the stuffing.",
+        "Stuff, roll and cook on a tawa with oil until golden."
+      ],
+      "tags": [
+        "stuffed",
+        "protein-rich"
+      ]
+    },
+    {
+      "id": "masala-papad",
+      "name": "Masala Papad",
+      "cuisine": "Indian",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 2,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "papad",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "chaat masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "sev",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Roast or fry the papad until crisp.",
+        "Top with chopped onion, tomato, chilli, chaat masala, lemon juice, sev and coriander. Serve immediately."
+      ],
+      "tags": [
+        "quick",
+        "starter"
+      ]
+    },
+    {
+      "id": "boondi-raita",
+      "name": "Boondi Raita",
+      "cuisine": "North Indian",
+      "meal_type": "side",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "curd",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "boondi",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "cumin powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "black salt",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Whisk curd smooth with salt, black salt and cumin powder.",
+        "Soak boondi in water for 2 minutes, squeeze lightly and fold in; dust with chilli powder."
+      ],
+      "tags": [
+        "cooling",
+        "side-dish",
+        "quick"
+      ]
+    },
+    {
+      "id": "sev-puri",
+      "name": "Sev Puri",
+      "cuisine": "Mumbai Street",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 15,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "crackers",
+          "qty": 12,
+          "unit": "piece"
+        },
+        {
+          "name": "potato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tamarind chutney",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "green chutney",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sev",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "chaat masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Arrange crackers on a plate and top each with boiled diced potato, onion and tomato.",
+        "Drizzle both chutneys, sprinkle chaat masala and load with sev and coriander."
+      ],
+      "tags": [
+        "chaat",
+        "no-cook",
+        "street-food"
+      ]
+    },
+    {
+      "id": "rasam",
+      "name": "Tomato Rasam",
+      "cuisine": "South Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "tomato",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "pigeon peas",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "rasam powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "tamarind paste",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "black mustard seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "asafoetida",
+          "qty": 1,
+          "unit": "pinch",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Cook dal until soft and whisk with 2 cups water.",
+        "Simmer crushed tomatoes with tamarind paste, rasam powder, garlic and salt for 8 minutes; add the dal water.",
+        "Temper mustard seeds, curry leaves and asafoetida in oil and pour over."
+      ],
+      "tags": [
+        "soup-like",
+        "digestive",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "sarson-ka-saag",
+      "name": "Sarson ka Saag with Makki Roti",
+      "cuisine": "Punjabi",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "hard",
+      "prep_time_min": 20,
+      "cook_time_min": 45,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "mustard greens",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "spinach",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "cornmeal",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "white butter",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Cook chopped mustard greens, spinach, ginger, garlic and chilli with a little water until very soft; mash coarsely.",
+        "Sauté onion in ghee, add the greens and simmer 10 minutes; finish with white butter.",
+        "Knead cornmeal with warm water and salt, pat into flat rotis and cook on a tawa. Serve together."
+      ],
+      "tags": [
+        "winter",
+        "regional",
+        "traditional"
+      ]
+    },
+    {
+      "id": "methi-thepla",
+      "name": "Methi Thepla",
+      "cuisine": "Gujarati",
+      "meal_type": "breakfast",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "whole wheat flour",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "fenugreek leaves",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "gram flour",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "curd",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Mix flours, chopped fenugreek leaves, curd, spices, sesame seeds, salt and 1 tbsp oil.",
+        "Knead to a soft dough with water and rest 15 minutes.",
+        "Roll thin and cook on a tawa with a little oil until spotted."
+      ],
+      "tags": [
+        "travel-friendly",
+        "everyday"
+      ]
+    },
+    {
+      "id": "karela-fry",
+      "name": "Karela Fry",
+      "cuisine": "North Indian",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "bitter gourd",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "amchur",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Slice karela thin, rub with salt and rest 15 minutes; squeeze out the bitter juice.",
+        "Fry onions until golden, add karela and cook on medium-low until crisp.",
+        "Add spices and amchur, toss 2 minutes."
+      ],
+      "tags": [
+        "dry-sabzi",
+        "diabetic-friendly"
+      ]
+    },
+    {
+      "id": "kaddu-sabzi",
+      "name": "Khatta Meetha Kaddu",
+      "cuisine": "North Indian",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "pumpkin",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "fenugreek seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "fennel seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "amchur",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "jaggery",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "mustard oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Heat mustard oil and crackle fenugreek and fennel seeds.",
+        "Add cubed pumpkin, chilli powder and salt; cook covered until soft.",
+        "Stir in jaggery and amchur and mash lightly."
+      ],
+      "tags": [
+        "sweet-sour",
+        "puri-side"
+      ]
+    },
+    {
+      "id": "dal-makhani",
+      "name": "Dal Makhani",
+      "cuisine": "Punjabi",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "hard",
+      "prep_time_min": 15,
+      "cook_time_min": 60,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "black gram",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "kidney beans",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "tomato puree",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "butter",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cream",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak black gram and kidney beans overnight; pressure cook until very soft.",
+        "Cook ginger, garlic and tomato puree in butter with chilli powder until thick.",
+        "Add the dal, simmer 30 minutes mashing a few, then finish with cream and garam masala."
+      ],
+      "tags": [
+        "slow-cooked",
+        "restaurant-style"
+      ]
+    },
+    {
+      "id": "masoor-dal",
+      "name": "Masoor Dal Tadka",
+      "cuisine": "Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil red lentils with turmeric and salt until soft, about 15 minutes.",
+        "Fry cumin, garlic, dried red chillies and onion in oil.",
+        "Pour the tadka over the dal."
+      ],
+      "tags": [
+        "quick",
+        "everyday",
+        "protein-rich"
+      ]
+    },
+    {
+      "id": "sprouts-chaat",
+      "name": "Moong Sprouts Chaat",
+      "cuisine": "Indian",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "sprouted moong",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "cucumber",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "chaat masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Steam sprouts for 5 minutes if you prefer them softer, then cool.",
+        "Toss with chopped onion, tomato, cucumber, chilli, chaat masala and lemon juice.",
+        "Garnish with coriander."
+      ],
+      "tags": [
+        "healthy",
+        "no-cook",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "kala-chana-curry",
+      "name": "Kala Chana Curry",
+      "cuisine": "Indian",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "brown chickpeas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak kala chana overnight and pressure cook until tender.",
+        "Make a masala of onion, ginger-garlic, tomato and spices.",
+        "Add chana with its water and simmer 10 minutes."
+      ],
+      "tags": [
+        "protein-rich",
+        "traditional"
+      ]
+    },
+    {
+      "id": "lobia-curry",
+      "name": "Lobia Masala",
+      "cuisine": "Punjabi",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 30,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "black-eyed peas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak and pressure cook black-eyed peas until soft.",
+        "Cook onion, ginger-garlic, tomato and spices into a masala.",
+        "Add lobia and simmer 10 minutes."
+      ],
+      "tags": [
+        "protein-rich",
+        "gravy"
+      ]
+    },
+    {
+      "id": "ragi-dosa",
+      "name": "Ragi Dosa",
+      "cuisine": "South Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "finger millet",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "semolina",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Whisk ragi, semolina, salt, cumin, chopped onion, chilli and curry leaves with water to a thin batter; rest 10 minutes.",
+        "Pour onto a hot tawa in a spiral, drizzle oil and cook until crisp."
+      ],
+      "tags": [
+        "millet",
+        "healthy",
+        "gluten-aware"
+      ]
+    },
+    {
+      "id": "bajra-roti",
+      "name": "Bajra Roti",
+      "cuisine": "Rajasthani",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "pearl millet",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Knead flour with salt and warm water into a smooth dough.",
+        "Pat or roll into thick rotis.",
+        "Cook on a hot tawa, puff over flame and serve with ghee."
+      ],
+      "tags": [
+        "millet",
+        "winter",
+        "traditional"
+      ]
+    },
+    {
+      "id": "jowar-roti-baingan",
+      "name": "Jowar Roti with Bharwa Baingan",
+      "cuisine": "Maharashtrian",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "hard",
+      "prep_time_min": 25,
+      "cook_time_min": 30,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "sorghum",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "eggplant",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "peanuts",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Dry roast and coarsely grind peanuts and sesame; mix with spices and salt.",
+        "Slit baby eggplants, stuff with the masala and cook covered in oil until tender.",
+        "Knead sorghum flour with hot water, pat into rotis and cook on a tawa."
+      ],
+      "tags": [
+        "millet",
+        "regional"
+      ]
+    },
+    {
+      "id": "hummus-pita",
+      "name": "Homemade Hummus with Pita",
+      "cuisine": "Middle Eastern",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "canned chickpeas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "tahini",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cumin powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "pita bread",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Blend chickpeas, tahini, lemon juice, garlic, cumin and salt with a few spoons of cold water until silky.",
+        "Drizzle with olive oil and serve with warmed pita."
+      ],
+      "tags": [
+        "dip",
+        "no-cook",
+        "party"
+      ]
+    },
+    {
+      "id": "baked-falafel",
+      "name": "Baked Falafel",
+      "cuisine": "Middle Eastern",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "parsley",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "cumin powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "baking powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soak chickpeas overnight (do not cook), drain and pulse with onion, garlic, parsley and spices into a coarse mixture.",
+        "Mix in flour and baking powder; shape into patties.",
+        "Brush with olive oil and bake at 200C for 25 minutes, flipping halfway."
+      ],
+      "tags": [
+        "baked",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "pesto-pasta",
+      "name": "Pesto Pasta",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 12,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "pesto",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "parmesan cheese",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "pine nuts",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil spaghetti in salted water until al dente; reserve a little pasta water.",
+        "Toss hot pasta with pesto and a splash of pasta water.",
+        "Finish with parmesan, toasted pine nuts and pepper."
+      ],
+      "tags": [
+        "quick",
+        "pantry-friendly"
+      ]
+    },
+    {
+      "id": "mac-and-cheese",
+      "name": "Stovetop Mac and Cheese",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "macaroni",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "whole milk",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "cheddar cheese",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "mustard powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil macaroni until al dente and drain.",
+        "Melt butter, stir in flour for 1 minute, then whisk in milk until thick.",
+        "Melt in grated cheddar, mustard powder, pepper and salt; fold in the macaroni."
+      ],
+      "tags": [
+        "comfort-food",
+        "kids-friendly"
+      ]
+    },
+    {
+      "id": "spaghetti-aglio-olio",
+      "name": "Spaghetti Aglio e Olio",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 12,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "spaghetti",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "garlic",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "olive oil",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "chilli flakes",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "parsley",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Boil spaghetti in salted water; reserve a cup of pasta water.",
+        "Gently cook sliced garlic and chilli flakes in olive oil until fragrant, not brown.",
+        "Toss pasta in the oil with pasta water until glossy; finish with parsley."
+      ],
+      "tags": [
+        "quick",
+        "pantry-friendly"
+      ]
+    },
+    {
+      "id": "margherita-pizza",
+      "name": "Margherita Pizza",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "pizza dough",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato paste",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "mozzarella cheese",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "basil",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "olive oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Preheat oven to its highest setting and stretch the dough thin.",
+        "Spread tomato paste, scatter mozzarella and season.",
+        "Bake 10-12 minutes until the crust is blistered; top with basil and olive oil."
+      ],
+      "tags": [
+        "baked",
+        "weekend"
+      ]
+    },
+    {
+      "id": "shakshuka",
+      "name": "Shakshuka",
+      "cuisine": "Middle Eastern",
+      "meal_type": "breakfast",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "egg",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "canned tomatoes",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "red bell pepper",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "paprika",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cumin powder",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "feta cheese",
+          "qty": 50,
+          "unit": "g",
+          "optional": true
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Soften onion, bell pepper and garlic in olive oil; add spices.",
+        "Add canned tomatoes and simmer 10 minutes until thick.",
+        "Make wells, crack in eggs, cover and cook until whites set; crumble feta over."
+      ],
+      "tags": [
+        "one-pan",
+        "brunch"
+      ]
+    },
+    {
+      "id": "black-bean-tacos",
+      "name": "Black Bean Tacos",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "corn tortillas",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "black beans",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "avocado",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "jalapeno",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "cumin powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "paprika",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "lime",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander leaves",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Warm black beans with cumin, paprika, salt and a little oil; mash lightly.",
+        "Mix onion, tomato, jalapeno, coriander, lime juice and salt into a salsa; mash the avocado.",
+        "Warm tortillas and fill with beans, avocado and salsa."
+      ],
+      "tags": [
+        "quick",
+        "high-fibre"
+      ]
+    },
+    {
+      "id": "veg-quesadilla",
+      "name": "Veg Cheese Quesadilla",
+      "cuisine": "Mexican",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 8,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "tortilla",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "mozzarella cheese",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "corn",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "capsicum",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "paprika",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Sauté onion, capsicum and corn with paprika for 3 minutes.",
+        "Fill half of each tortilla with cheese and the vegetables; fold over.",
+        "Toast in butter until golden and the cheese melts."
+      ],
+      "tags": [
+        "quick",
+        "kids-friendly"
+      ]
+    },
+    {
+      "id": "quinoa-salad",
+      "name": "Quinoa Chickpea Salad",
+      "cuisine": "Mediterranean",
+      "meal_type": "lunch",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "quinoa",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "canned chickpeas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "cucumber",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "red onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "parsley",
+          "qty": 3,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "lemon juice",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Rinse quinoa and simmer in 1.5 cups water for 15 minutes; fluff and cool.",
+        "Toss with chickpeas, chopped vegetables and parsley.",
+        "Dress with lemon juice, olive oil and salt."
+      ],
+      "tags": [
+        "healthy",
+        "meal-prep",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "greek-salad",
+      "name": "Greek Salad",
+      "cuisine": "Greek",
+      "meal_type": "side",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "cucumber",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "red onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "feta cheese",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "olive oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "oregano",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Chop cucumber, tomato and red onion into chunks.",
+        "Top with feta, olive oil, oregano and salt; toss lightly."
+      ],
+      "tags": [
+        "no-cook",
+        "fresh"
+      ]
+    },
+    {
+      "id": "avocado-toast",
+      "name": "Avocado Toast",
+      "cuisine": "Continental",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 3,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "sourdough bread",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "avocado",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Toast the sourdough until crisp.",
+        "Mash avocado with lemon juice and salt, spread on toast and top with chilli flakes and sesame seeds."
+      ],
+      "tags": [
+        "quick",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "mango-lassi",
+      "name": "Mango Lassi",
+      "cuisine": "Indian",
+      "meal_type": "drink",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "mango",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "cardamom",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "milk",
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Peel and chop mangoes.",
+        "Blend with curd, milk, sugar and cardamom until smooth; serve chilled."
+      ],
+      "tags": [
+        "summer",
+        "cooling"
+      ]
+    },
+    {
+      "id": "banana-strawberry-smoothie",
+      "name": "Strawberry Banana Smoothie",
+      "cuisine": "Continental",
+      "meal_type": "drink",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "strawberry",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "banana",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "milk",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "honey",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Blend strawberries, banana, yogurt, milk and honey until smooth."
+      ],
+      "tags": [
+        "quick",
+        "breakfast"
+      ]
+    },
+    {
+      "id": "fruit-chaat",
+      "name": "Fruit Chaat",
+      "cuisine": "Indian",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "apple",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "banana",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "guava",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "pomegranate",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "papaya",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "chaat masala",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "black salt",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Cube all the fruit and toss gently.",
+        "Sprinkle with chaat masala, black salt and lemon juice; serve at once."
+      ],
+      "tags": [
+        "no-cook",
+        "healthy"
+      ]
+    },
+    {
+      "id": "overnight-oats",
+      "name": "Chia Overnight Oats",
+      "cuisine": "Continental",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "oats",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "chia seeds",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "oat milk",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "blueberry",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "maple syrup",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "almonds",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Mix oats, chia seeds, oat milk and maple syrup in a jar.",
+        "Refrigerate overnight and top with blueberries and almonds."
+      ],
+      "tags": [
+        "meal-prep",
+        "no-cook",
+        "healthy"
+      ]
+    },
+    {
+      "id": "masala-oats",
+      "name": "Masala Oats",
+      "cuisine": "Indian",
+      "meal_type": "breakfast",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 8,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "oats",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "carrot",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Temper cumin in oil, cook onion, carrot and tomato with turmeric.",
+        "Add oats, salt and 1.5 cups water; cook 4-5 minutes until creamy."
+      ],
+      "tags": [
+        "quick",
+        "healthy"
+      ]
+    },
+    {
+      "id": "gajar-halwa",
+      "name": "Gajar ka Halwa",
+      "cuisine": "Indian",
+      "meal_type": "dessert",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 45,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "carrot",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "milk",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "ghee",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "green cardamom",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "cashews",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "raisins",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Grate carrots and cook in ghee for 5 minutes.",
+        "Add milk and simmer, stirring, until almost dry.",
+        "Stir in sugar and cardamom, cook until thick; garnish with fried cashews and raisins."
+      ],
+      "tags": [
+        "winter",
+        "festive"
+      ]
+    },
+    {
+      "id": "rice-kheer",
+      "name": "Rice Kheer",
+      "cuisine": "Indian",
+      "meal_type": "dessert",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 40,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "basmati rice",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "whole milk",
+          "qty": 4,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "qty": 0.33,
+          "unit": "cup"
+        },
+        {
+          "name": "green cardamom",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "saffron",
+          "qty": 1,
+          "unit": "pinch",
+          "optional": true
+        },
+        {
+          "name": "pistachios",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Wash and soak rice for 20 minutes.",
+        "Simmer rice in milk on low heat, stirring often, until thick and creamy (about 35 minutes).",
+        "Add sugar, cardamom and saffron; garnish with pistachios."
+      ],
+      "tags": [
+        "festive",
+        "slow-cooked"
+      ]
+    },
+    {
+      "id": "vermicelli-kheer",
+      "name": "Seviyan Kheer",
+      "cuisine": "Indian",
+      "meal_type": "dessert",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "vermicelli",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "whole milk",
+          "qty": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "qty": 0.33,
+          "unit": "cup"
+        },
+        {
+          "name": "ghee",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cardamom",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "raisins",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "almonds",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Roast broken vermicelli in ghee until golden.",
+        "Add hot milk and simmer 10 minutes until soft.",
+        "Stir in sugar, cardamom, raisins and almonds."
+      ],
+      "tags": [
+        "festive",
+        "quick-sweet"
+      ]
+    },
+    {
+      "id": "chocolate-mug-cake",
+      "name": "Chocolate Mug Cake",
+      "cuisine": "Continental",
+      "meal_type": "dessert",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 2,
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cocoa powder",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "baking powder",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "egg",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "milk",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "chocolate chips",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Whisk everything except chips in a large mug until smooth; fold in chocolate chips.",
+        "Microwave on high for 90 seconds to 2 minutes until risen and set."
+      ],
+      "tags": [
+        "quick",
+        "single-serve"
+      ]
+    },
+    {
+      "id": "dark-chocolate-brownies",
+      "name": "Dark Chocolate Brownies",
+      "cuisine": "American",
+      "meal_type": "dessert",
+      "diet": "eggetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 9,
+      "ingredients": [
+        {
+          "name": "dark chocolate",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "butter",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "brown sugar",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "all-purpose flour",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "cocoa powder",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "vanilla extract",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "walnuts",
+          "qty": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Melt chocolate with butter and cool slightly; whisk in sugar, eggs and vanilla.",
+        "Fold in flour, cocoa, salt and walnuts.",
+        "Bake in a lined tin at 175C for 22-25 minutes; cool before slicing."
+      ],
+      "tags": [
+        "baked",
+        "weekend"
+      ]
+    },
+    {
+      "id": "eggless-banana-bread",
+      "name": "Banana Bread",
+      "cuisine": "Continental",
+      "meal_type": "dessert",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 50,
+      "servings": 8,
+      "ingredients": [
+        {
+          "name": "banana",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "whole wheat flour",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "brown sugar",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "baking soda",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "cinnamon",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "walnuts",
+          "qty": 0.25,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Mash ripe bananas and mix with sugar and oil.",
+        "Fold in flour, baking soda, cinnamon, salt and walnuts.",
+        "Bake in a loaf tin at 175C for 45-50 minutes until a skewer comes out clean."
+      ],
+      "tags": [
+        "baked",
+        "uses-ripe-banana"
+      ]
+    },
+    {
+      "id": "tomato-soup",
+      "name": "Creamy Tomato Soup",
+      "cuisine": "Continental",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "tomato",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cream",
+          "qty": 2,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "sugar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Sauté onion, garlic and carrot in butter; add chopped tomatoes and 2 cups water.",
+        "Simmer 15 minutes and blend smooth; strain if desired.",
+        "Season with salt, pepper and sugar; finish with cream."
+      ],
+      "tags": [
+        "soup",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "mushroom-soup",
+      "name": "Cream of Mushroom Soup",
+      "cuisine": "Continental",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "button mushroom",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "milk",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "thyme",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Sauté onion, garlic and chopped mushrooms in butter until browned.",
+        "Stir in flour, then milk and thyme; simmer 10 minutes.",
+        "Blend partly for a rustic texture; season with salt and pepper."
+      ],
+      "tags": [
+        "soup",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "pumpkin-soup",
+      "name": "Roasted Pumpkin Soup",
+      "cuisine": "Continental",
+      "meal_type": "snack",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 30,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "pumpkin",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "garlic",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable stock",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "olive oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "nutmeg",
+          "qty": 1,
+          "unit": "pinch",
+          "optional": true
+        },
+        {
+          "name": "pumpkin seeds",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Roast cubed pumpkin with olive oil at 200C for 20 minutes.",
+        "Soften onion and garlic, add pumpkin and stock, simmer 10 minutes.",
+        "Blend smooth, season with salt and nutmeg and top with toasted seeds."
+      ],
+      "tags": [
+        "soup",
+        "winter"
+      ]
+    },
+    {
+      "id": "chicken-biryani",
+      "name": "Chicken Biryani",
+      "cuisine": "Hyderabadi",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "hard",
+      "prep_time_min": 30,
+      "cook_time_min": 50,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "basmati rice",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 6,
+          "unit": "piece"
+        },
+        {
+          "name": "biryani masala",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "mint leaves",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "saffron",
+          "qty": 1,
+          "unit": "pinch",
+          "optional": true
+        },
+        {
+          "name": "ghee",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate chicken with curd, ginger-garlic, biryani masala, mint and salt for 1 hour; brown the onions for topping.",
+        "Parboil soaked basmati rice to 70% done.",
+        "Layer chicken, rice, fried onions, saffron milk and ghee; seal and cook on dum (low heat) for 25 minutes."
+      ],
+      "tags": [
+        "festive",
+        "one-pot",
+        "weekend"
+      ]
+    },
+    {
+      "id": "veg-biryani",
+      "name": "Vegetable Biryani",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "diet": "vegetarian",
+      "difficulty": "hard",
+      "prep_time_min": 25,
+      "cook_time_min": 40,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "basmati rice",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "mixed vegetables",
+          "qty": 3,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "biryani masala",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "mint leaves",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "ghee",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate vegetables with curd, ginger-garlic, biryani masala and salt; brown the onions.",
+        "Parboil soaked rice with whole salt to 70% done.",
+        "Layer vegetables, rice, onions, mint and ghee; cook sealed on low heat for 20 minutes."
+      ],
+      "tags": [
+        "festive",
+        "one-pot"
+      ]
+    },
+    {
+      "id": "tandoori-chicken-tikka",
+      "name": "Chicken Tikka",
+      "cuisine": "Punjabi",
+      "meal_type": "snack",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "curd",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "tandoori masala",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "lemon juice",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "mustard oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate cubed chicken with curd, tandoori masala, ginger-garlic, lemon juice, oil and salt for at least 2 hours.",
+        "Skewer and grill or bake at 220C for 15-20 minutes, turning once.",
+        "Serve with sliced onion and lemon."
+      ],
+      "tags": [
+        "grill",
+        "high-protein",
+        "party"
+      ]
+    },
+    {
+      "id": "paneer-tikka",
+      "name": "Paneer Tikka",
+      "cuisine": "Punjabi",
+      "meal_type": "snack",
+      "diet": "vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "paneer",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "paneer tikka marinade",
+          "qty": 4,
+          "unit": "tbsp"
+        },
+        {
+          "name": "capsicum",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "chaat masala",
+          "qty": 0.5,
+          "unit": "tsp",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Toss paneer, capsicum and onion chunks in the tikka marinade for 30 minutes.",
+        "Skewer and grill or pan-sear in oil until charred at the edges.",
+        "Sprinkle with chaat masala."
+      ],
+      "tags": [
+        "grill",
+        "party",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "butter-chicken",
+      "name": "Butter Chicken",
+      "cuisine": "Punjabi",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 20,
+      "cook_time_min": 35,
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "chicken thigh",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "tomato puree",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "butter",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cream",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "curd",
+          "qty": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "fenugreek leaves dried",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate chicken in curd, ginger-garlic, chilli powder and salt; sear until lightly charred.",
+        "Simmer tomato puree in butter with garam masala for 12 minutes.",
+        "Add chicken and cream, simmer 10 minutes and finish with crushed kasuri methi."
+      ],
+      "tags": [
+        "restaurant-style",
+        "gravy",
+        "festive"
+      ]
+    },
+    {
+      "id": "prawn-masala",
+      "name": "Prawn Masala",
+      "cuisine": "Coastal Indian",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "prawns",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "coconut oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Marinate cleaned prawns with turmeric and salt for 10 minutes.",
+        "Cook onion, ginger-garlic, curry leaves and tomato with spices in coconut oil.",
+        "Add prawns and cook 5-6 minutes only, until pink and curled."
+      ],
+      "tags": [
+        "seafood",
+        "coastal",
+        "quick"
+      ]
+    },
+    {
+      "id": "kerala-fish-curry",
+      "name": "Kerala-style Fish Curry",
+      "cuisine": "Kerala",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "mackerel",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "coconut milk",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "kokum",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "onion",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "green chilli",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "turmeric",
+          "qty": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "curry leaves",
+          "qty": 8,
+          "unit": "piece"
+        },
+        {
+          "name": "coconut oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Sauté onion, ginger, garlic, chilli and curry leaves in coconut oil; add turmeric and chilli powder.",
+        "Add kokum and a cup of water; simmer 5 minutes.",
+        "Add fish and coconut milk and cook gently for 8-10 minutes."
+      ],
+      "tags": [
+        "coastal",
+        "tangy"
+      ]
+    },
+    {
+      "id": "salmon-lemon-pepper",
+      "name": "Pan-Seared Lemon Pepper Salmon",
+      "cuisine": "Continental",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "salmon",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "lemon",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "black pepper",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "butter",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "dill",
+          "qty": 1,
+          "unit": "tbsp",
+          "optional": true
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Season salmon with salt and pepper.",
+        "Sear skin-side down in butter for 4 minutes, flip, add garlic and cook 3 minutes.",
+        "Finish with lemon juice and dill."
+      ],
+      "tags": [
+        "quick",
+        "high-protein",
+        "omega-3"
+      ]
+    },
+    {
+      "id": "tuna-sandwich",
+      "name": "Tuna Salad Sandwich",
+      "cuisine": "Continental",
+      "meal_type": "snack",
+      "diet": "non-vegetarian",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 0,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "tuna",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "mayonnaise",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "celery",
+          "qty": 1,
+          "unit": "piece",
+          "optional": true
+        },
+        {
+          "name": "red onion",
+          "qty": 0.25,
+          "unit": "piece"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "whole wheat bread",
+          "qty": 4,
+          "unit": "piece"
+        },
+        {
+          "name": "lettuce",
+          "qty": 2,
+          "unit": "piece"
+        }
+      ],
+      "steps": [
+        "Flake tuna and mix with mayonnaise, chopped onion, celery and pepper.",
+        "Spread on bread with lettuce and close the sandwiches."
+      ],
+      "tags": [
+        "no-cook",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "keema-matar",
+      "name": "Mutton Keema Matar",
+      "cuisine": "North Indian",
+      "meal_type": "dinner",
+      "diet": "non-vegetarian",
+      "difficulty": "medium",
+      "prep_time_min": 10,
+      "cook_time_min": 35,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "lamb",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "frozen peas",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "qty": 5,
+          "unit": "piece"
+        },
+        {
+          "name": "coriander powder",
+          "qty": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "red chilli powder",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "garam masala",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 3,
+          "unit": "tbsp"
+        },
+        {
+          "name": "salt",
+          "qty": 1,
+          "unit": "to taste"
+        }
+      ],
+      "steps": [
+        "Brown onions in oil; add ginger-garlic and tomato with spices.",
+        "Add minced lamb and cook 15 minutes until dry and fragrant.",
+        "Add peas and a little water, cook 8 minutes and finish with garam masala."
+      ],
+      "tags": [
+        "dry-curry",
+        "weekend"
+      ]
+    },
+    {
+      "id": "egg-fried-rice",
+      "name": "Egg Fried Rice",
+      "cuisine": "Indo-Chinese",
+      "meal_type": "dinner",
+      "diet": "eggetarian",
+      "difficulty": "easy",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "jasmine rice",
+          "qty": 2,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "frozen peas",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "carrot",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "spring onion",
+          "qty": 2,
+          "unit": "piece"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp",
+          "optional": true
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Scramble eggs in oil and set aside.",
+        "Stir-fry carrot and peas on high heat, add cold cooked rice and soy sauce.",
+        "Fold in eggs, pepper and spring onion; finish with sesame oil."
+      ],
+      "tags": [
+        "quick",
+        "leftover-rice"
+      ]
+    },
+    {
+      "id": "lemongrass-coconut-curry",
+      "name": "Thai Coconut Vegetable Curry",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "diet": "vegan",
+      "difficulty": "medium",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 3,
+      "ingredients": [
+        {
+          "name": "canned coconut milk",
+          "qty": 1.5,
+          "unit": "cup"
+        },
+        {
+          "name": "curry paste",
+          "qty": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "lemongrass",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "broccoli",
+          "qty": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "baby corn",
+          "qty": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "red bell pepper",
+          "qty": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "bamboo shoots",
+          "qty": 0.5,
+          "unit": "cup",
+          "optional": true
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "brown sugar",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "lime",
+          "qty": 0.5,
+          "unit": "piece"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Fry curry paste and bruised lemongrass in oil for 1 minute.",
+        "Add coconut milk, soy sauce and sugar; simmer 5 minutes.",
+        "Add vegetables and cook 8-10 minutes until tender; finish with lime. Serve with jasmine or white rice."
+      ],
+      "tags": [
+        "curry",
+        "creamy"
+      ]
+    },
+    {
+      "id": "stir-fried-bok-choy-shiitake",
+      "name": "Bok Choy and Shiitake Stir-Fry",
+      "cuisine": "Chinese",
+      "meal_type": "side",
+      "diet": "vegan",
+      "difficulty": "easy",
+      "prep_time_min": 10,
+      "cook_time_min": 8,
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "bok choy",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "shiitake mushroom",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "garlic",
+          "qty": 3,
+          "unit": "piece"
+        },
+        {
+          "name": "ginger",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "soy sauce",
+          "qty": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Sear sliced shiitake in oil until browned.",
+        "Add garlic, ginger and bok choy; stir-fry 2-3 minutes on high heat.",
+        "Finish with soy sauce and sesame oil."
+      ],
+      "tags": [
+        "quick",
+        "umami"
+      ]
+    }
+  ]
+}
