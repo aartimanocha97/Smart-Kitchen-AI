@@ -1,4 +1,4 @@
-# Smart Kitchen AI 🍳
+# Smart Kitchen AI 
 
 An AI-powered ingredient detection and recipe recommendation system that
 helps users discover recipes using ingredients they already have.
